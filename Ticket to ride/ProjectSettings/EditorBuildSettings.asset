@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/ticket to ride.unity
     guid: d75a5d59a0d95f24cb9b8067d9766c93
+  - enabled: 1
+    path: Assets/scenes/spelregels.unity
+    guid: 337a232e36f0f96439cc4d13fac97f4c
   m_configObjects: {}
