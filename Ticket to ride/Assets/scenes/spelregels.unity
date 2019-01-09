@@ -196,7 +196,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -19, y: 0}
-  m_SizeDelta: {x: 740, y: 600}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &350688082
 MonoBehaviour:
@@ -270,8 +270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 500}
+  m_AnchoredPosition: {x: 0, y: -40}
+  m_SizeDelta: {x: 1500, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505208960
 MonoBehaviour:
@@ -295,10 +295,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
-    m_FontStyle: 1
+    m_FontSize: 33
+    m_FontStyle: 3
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 1
@@ -306,32 +306,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Deze versie van ticket-to-ride werkt als volgt:
-
-    Het spel kan gespeeld worden met 2-4 spelers. Elke speler heeft een vaste kleur
-    die hij/zij moet aanhouden. DE kleuren zijn als volgt verdeelt:
-
-
-    SPELER 1 = ROOD (1 klik)
-
-    SPELER 2 = GROEN (2 keer klikken)
-
-    SPELER 3 = GEEL (3 keer klikken)
-
-    SPELER 4 = BLAUW (4 keer klikken)
-
-
-    Elke speler krijgt om de minuut de kans om, na de kaart met opdracht, treinen
-    kleur te geven. De speler moet de trein uiteraard haar/zijn kleur geven zoals
-    boven staat aangegeven. Dit kan degene doen door te klikken op het dak van de
-    trein. Hierboven staat aangegeven hoe vaak je moet klikken op het dat voor de
-    juiste kleur. Elke speler heeft een minuut de tijd.  De speler met het langste
-    spoor wint!
-
-
-    VEEL SUCCES!
-
-'
+  m_Text: "Deze versie van ticket-to-ride werkt als volgt:\nHet spel kan gespeeld
+    worden met 2-4 spelers. Elke speler heeft een vaste kleur die hij/zij moet aanhouden.
+    DE kleuren zijn als volgt verdeelt:\n\nSPELER 1 = ROOD (1 klik)\nSPELER 2 = GROEN
+    (2 keer klikken)\nSPELER 3 = GEEL (3 keer klikken)\nSPELER 4 = BLAUW (4 keer klikken)\n\nElke
+    speler krijgt om de minuut de kans om, na de kaart met opdracht, treinen kleur
+    te geven. De speler moet de trein uiteraard haar/zijn kleur geven zoals boven
+    staat aangegeven. Dit kan degene doen door te klikken op het dak van de trein.
+    Hierboven staat aangegeven hoe vaak je moet klikken op het dat voor de juiste
+    kleur. Elke speler heeft een minuut de tijd.  De speler met het langste spoor
+    wint! P.S. gebruik de camera d.m.v. de pijltjestoetsen en zoom in/uit d.m.v de
+    scrollknop op de muis. \n\nVEEL SUCCES!\n"
 --- !u!222 &505208961
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -380,7 +365,7 @@ RectTransform:
   m_GameObject: {fileID: 555912575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1002289776}
   m_Father: {fileID: 33678679}
@@ -388,7 +373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
+  m_AnchoredPosition: {x: 0, y: -350}
   m_SizeDelta: {x: 330, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555912577
