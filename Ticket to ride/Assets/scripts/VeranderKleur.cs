@@ -4,19 +4,31 @@ using UnityEngine;
 
 public class VeranderKleur : MonoBehaviour
 {
+    public Material[] materials;
+    public Renderer rend;
+
+    private int index = 1;
+
+    private void Start()
+    {
+        rend = GetComponent<Renderer>();
+        rend.enabled = true;
+    }
     private void OnMouseDown()
     {
-        // zet een nieuwe kleur op dak van de trein
-
-        Renderer rend = GetComponent<Renderer>();
-
-
-        rend.material.shader = Shader.Find("_Color");
-        rend.material.SetColor("_Color", Color.green);
-
-
-        rend.material.shader = Shader.Find("Specular");
-        rend.material.SetColor("_SpecColor", Color.red);
-
+        if (materials.Length == 0)
+        {
+            return;
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            index += 1;
+            if (index == materials.Length +1)
+            {
+                index = 1;
+            }
+            print(index); // werkt het?
+            rend.sharedMaterial = materials [index-1];
+        }
     }
 }
