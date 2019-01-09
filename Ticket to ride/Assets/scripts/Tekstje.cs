@@ -3,14 +3,14 @@ using System.Collections;
 
 public class Tekstje : MonoBehaviour
 {
-      float tijd = 5f; //Seconds to read the text
+      float tijd = 3f; //Seconds to read the text
 
     void Start()
     {
-        Invoke("Hide", tijd);
+        Invoke("verdwijn", tijd);
               }
 
-    void Hide()
+    void verdwijn()
     {
         Destroy(gameObject);
     }
